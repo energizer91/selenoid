@@ -16,6 +16,10 @@ a, a:hover {
     color: inherit;
 }
 
+a[href] {
+    border-bottom: 1px dashed;
+}
+
 h1 {
     color: #002C30;
     font-size: 2.111rem;
@@ -59,6 +63,9 @@ nav li {
     height: 80px;
 
     &__logo {
+
+        border-bottom-style: none !important;
+
         &-image {
             width: 40px;
             height: 40px;
